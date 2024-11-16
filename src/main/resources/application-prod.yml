@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: postgresql://{PGUSER}:{PGPASSWORD}@{PGHOST}:{PGPORT}/{PGDATABASE}
+    url: jdbc:postgresql://postgres:cyuIExXxPIQVpYYiVzcYzQSGYnEhAuem@autorack.proxy.rlwy.net:23091/railway
 
     username: ${PGUSER}
     password: ${PGPASSWORD}
+    driver-class-name: org.postgresql.Driver
   jpa:
     open-in-view: false
     hibernate:
