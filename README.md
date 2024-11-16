@@ -1,6 +1,8 @@
 # DIO CLARO BOOTCAMP 2024 Java API
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
-RESTful API da DIO Claro Bootcamp construída em Java 17 com Spring Boot 3.
+
+Esta é uma RESTful API construída em Java 17 com Spring Boot 3, desenvolvida como objeto de estudo e desafio para o DIO Claro Bootcamp 2024. A API permite a criação de usuários de uma instituição bancária, fornecendo informações como nome, agência e número da conta do cliente, detalhes do cartão (número e limite), além de funcionalidades e notícias com ícones associados. Ela armazena os dados no banco de dados e conta com tratamento de exceções para evitar erros e garantir respostas consistentes.
 
 ## Principais Tecnologias
 - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
