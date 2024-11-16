@@ -1,14 +1,18 @@
+
 spring:
   datasource:
-    url: jdbc:postgresql://postgres:cyuIExXxPIQVpYYiVzcYzQSGYnEhAuem@autorack.proxy.rlwy.net:23091/railway
+    url: jdbc:postgresql://autorack.proxy.rlwy.net:23091/railway
+    # postgresql://postgres:cyuIExXxPIQVpYYiVzcYzQSGYnEhAuem@autorack.proxy.rlwy.net:23091/railway
+    # meu url: jdbc:postgresql://postgres:cyuIExXxPIQVpYYiVzcYzQSGYnEhAuem@autorack.proxy.rlwy.net:23091/railway
 
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    # dele url: jdbc:postgresql://postgres.railway.internal:5432/railway
+
+    username: postgres
+    password: cyuIExXxPIQVpYYiVzcYzQSGYnEhAuem
     driver-class-name: org.postgresql.Driver
   jpa:
-    open-in-view: false
     hibernate:
-      ddl-auto: create # ou none, validate, create, create-drop conforme necessário
+      ddl-auto: validate # ou none, validate, create, create-drop conforme necessário
     show-sql: true
     properties:
       hibernate:
